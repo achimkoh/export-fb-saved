@@ -1,7 +1,7 @@
 # written in python3.5
 from bs4 import BeautifulSoup as BS
 
-# you need to first manually save your Facebook 'Saved' page source.
+# you need to first manually scroll till the bottom of your Facebook 'Saved' page, and save source. or use some automatic stuff if you can
 # for some reason 'view source' didn't work for me, so I grabbed the whole <body> tag in the element inspector
 with open('facebook_saved.html', 'r') as f:
     source = f.read()
